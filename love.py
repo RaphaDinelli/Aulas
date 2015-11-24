@@ -27,7 +27,7 @@ class Player:
         self.label_title = Label(master, text = 'Title of page',
                     bg = '#87CEFA', fg = '#8B7D7B', font=('Verdana', 20, 'bold'),
                                  relief=SUNKEN, width=50)
-        self.label_music.place(x=190, y=20)
+        self.label_title.place(x=190, y=20)
 
         # A Romantic text chosen by the autor
         self.love_text = Text(master,bg='#87CEFA', height=400, width=100
